@@ -1,5 +1,7 @@
 # Predictive Maintenance for Cloud GPU Infrastructure
 
+[![Open in nbviewer](https://img.shields.io/badge/Open%20in-nbviewer-orange?logo=jupyter)](https://nbviewer.org/github/JeremyHunt-DSML/gpu-failure-mode-profiling/blob/main/gpu_failure_mode_profiling.ipynb)
+
 ### A Failure-Mode Profiling Approach Using Unsupervised Learning
 
 When a GPU job fails on a large cloud cluster, somebody has to figure out *why* — and right now that somebody is usually a tired on-call engineer sifting through telemetry logs at 2 a.m. This project automates that triage step. It takes the raw hardware telemetry from a failed job and sorts it into a named, actionable failure category, so infrastructure teams know where to point their attention instead of starting every postmortem from scratch.
